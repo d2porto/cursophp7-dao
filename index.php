@@ -23,16 +23,24 @@ require_once("config.php");
 //Criando um novo usuário
 /*
 $aluno = new Usuario("d2", "123456");
-
 $aluno->insert();
-
 echo $aluno;
 */
 
+//Atualizando usuario no banco
+/*
 $usuario = new Usuario();
 $usuario->loadById(6);
 $usuario->update("professor", "123456");
-
 echo $usuario;
+*/
+
+//Deletando usuário
+/*
+$usuario = new Usuario();
+$usuario->loadById(7);
+$usuario->delete();
+echo $usuario;
+*/
 
  ?>
